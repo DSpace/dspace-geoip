@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.dspace.dependencies</groupId>
 	<artifactId>dspace-geoip</artifactId>
 	<name>DSpace Maxmind GeoIP Dependency</name>
-	<version>1.2.3-SNAPSHOT</version>
+	<version>1.2.3</version>
 	<description>GeoIP Artifact Builder for deployment to Maven repository.</description>
 
 <repositories>
@@ -31,9 +30,9 @@
       into the snapshot repository below.
    -->
    <scm>
-      <connection>scm:svn:http://scm.dspace.org/svn/repo/modules/dspace-geoip/trunk</connection>
-      <developerConnection>scm:svn:https://scm.dspace.org/svn/repo/modules/dspace-geoip/trunk</developerConnection>
-      <url>http://scm.dspace.org/svn/repo/modules/dspace-geoip/trunk</url>
+      <connection>scm:svn:http://scm.dspace.org/svn/repo/modules/dspace-geoip/tags/dspace-geoip-1.2.3</connection>
+      <developerConnection>scm:svn:https://scm.dspace.org/svn/repo/modules/dspace-geoip/tags/dspace-geoip-1.2.3</developerConnection>
+      <url>http://scm.dspace.org/svn/repo/modules/dspace-geoip/tags/dspace-geoip-1.2.3</url>
    </scm>
 
    <!-- 
@@ -71,9 +70,7 @@
 						<phase>generate-sources</phase>
 						<configuration>
 							<tasks>
-								<cvs
-									cvsRoot=":pserver:annonymous@geoip.cvs.sourceforge.net:/cvsroot/geoip"
-									package="java" dest="target/cvs" />
+								<cvs cvsRoot=":pserver:annonymous@geoip.cvs.sourceforge.net:/cvsroot/geoip" package="java" dest="target/cvs" />
 								<mkdir dir="src/main/java" />
 								<copy todir="src/main/java">
 									<fileset dir="target/cvs/java/source/" />
