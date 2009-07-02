@@ -1,0 +1,5 @@
+This project is used to build and deploy the version 
+of the LGPL'd geoip required for statistics IP resolution.
+
+See their source for further details.
+http://geoip.cvs.sourceforge.net/viewvc/geoip/java/
