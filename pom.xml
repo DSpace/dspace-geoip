@@ -3,7 +3,7 @@
 	<groupId>org.dspace.dependencies</groupId>
 	<artifactId>dspace-geoip</artifactId>
 	<name>DSpace Maxmind GeoIP Dependency</name>
-	<version>1.2.3</version>
+	<version>1.2.4-SNAPSHOT</version>
 	<description>GeoIP Artifact Builder for deployment to Maven repository.</description>
 
 <repositories>
@@ -30,9 +30,9 @@
       into the snapshot repository below.
    -->
    <scm>
-      <connection>scm:svn:http://scm.dspace.org/svn/repo/modules/dspace-geoip/tags/dspace-geoip-1.2.3</connection>
-      <developerConnection>scm:svn:https://scm.dspace.org/svn/repo/modules/dspace-geoip/tags/dspace-geoip-1.2.3</developerConnection>
-      <url>http://scm.dspace.org/svn/repo/modules/dspace-geoip/tags/dspace-geoip-1.2.3</url>
+      <connection>scm:svn:http://scm.dspace.org/svn/repo/modules/dspace-geoip/trunk</connection>
+      <developerConnection>scm:svn:https://scm.dspace.org/svn/repo/modules/dspace-geoip/trunk</developerConnection>
+      <url>http://scm.dspace.org/svn/repo/modules/dspace-geoip/trunk</url>
    </scm>
 
    <!-- 
