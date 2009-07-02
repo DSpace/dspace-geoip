@@ -31,6 +31,9 @@
       into the snapshot repository below.
    -->
    <scm>
+      <connection>scm:svn:http://scm.dspace.org/svn/repo/modules/dspace-geoip/trunk</connection>
+      <developerConnection>scm:svn:https://scm.dspace.org/svn/repo/modules/dspace-geoip/trunk</developerConnection>
+      <url>http://scm.dspace.org/svn/repo/modules/dspace-geoip/trunk</url>>
    </scm>
 
    <!-- 
